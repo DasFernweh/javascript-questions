@@ -1,2 +1,2 @@
 # javascript-questions
-记录做题后的收获
+github上的js面试题总结
