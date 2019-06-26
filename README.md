@@ -7,9 +7,11 @@ github上的js面试题总结
 <details>
 <summary>答案</summary>
 <pre><code>
-二者都会被变量提升，但是var在创建时即被初始化，所以提前console会显示undefined，而let只会被创建不会初始化，所以提前输出会显示ReferenceError（暂时性死区）
+二者都会被变量提升，但是var在创建时即被初始化，所以提前console会显示undefined，而let只会被创建不会初始化，  
+所以提前输出会显示ReferenceError（暂时性死区）
 </code></pre>
-</details>
+</details>  
+
 2. 箭头函数的作用域是  
 3.  
 
