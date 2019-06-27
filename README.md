@@ -1,7 +1,7 @@
 # javascript-questions
 github上的js面试题总结  
 参考的掘金文章https://juejin.im/post/5d0644976fb9a07ed064b0ca  
-需要重复看的题目：`9` `10`、`11` `12` `12` `13` `14` `15` `16i` `17` `18` `20` `` `` `` 
+需要重复看的题目：`9` `10`、`11` `12` `12` `13` `14` `15` `16i` `17` `18` `20` `21` `` `` 
 
 ### 错误问题记录
 1. var和let声明变量时的区别  
@@ -37,8 +37,7 @@ github上的js面试题总结
         </code></pre>
         </details>  
    7. 数字和字符串运算（加减）  
-           ```
-           
+   
             console.log('----1----')   
             console.log('12' + '34')//'1234'    
             console.log('12' + 34 )//'1234'   
@@ -69,7 +68,7 @@ github上的js面试题总结
             console.log(-'12' - 34)//-22   
             console.log(-12 - '34')//-22   
             console.log(-12 - 34)//-22   
-           ```
+
    8. 后缀一元运算符和前缀一元运算符  
         <details>
         <summary>答案</summary>
