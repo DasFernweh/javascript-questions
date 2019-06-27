@@ -78,4 +78,12 @@ github上的js面试题总结
         </code></pre>
         </details>  
    9. 扩展运算符（...）返回什么类型，typeof（数组）返回什么  
+   10. slice()和splice()区别  
+        <details>
+        <summary>答案</summary>
+        <pre><code>
+            slice(start,end): 取数组中从start开始到end结束中间的值，并返回一个新数组（相当于返回数组的一个子数组），不改变初始数组
+            splice(start,howmany,item1,...itemX)：向数组中删除或添加指定值。start开始位置，howmany表示删除几个（如果为0则表示不             删除），item1,...itemX表示要添加的内容，返回一个新数组，会改变初始数组。如果start为负值，则表示从数组尾部开始
+        </code></pre>
+        </details>  
    
