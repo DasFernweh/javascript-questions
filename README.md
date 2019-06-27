@@ -24,10 +24,17 @@ github上的js面试题总结
         <details>
         <summary>答案</summary>
         <pre><code>
-
+        js的对象赋值是引用，即令a=b，修改一个a的值，同时b也会变化，因为使用的是同意内存空间
         </code></pre>
         </details>  
   4. ES6类的静态方法  
+        <details>
+        <summary>答案</summary>
+        <pre><code>
+        <font face="微软雅黑" size=6 color=#FF0000 >静态方法只存在创建他们的构造函数中</font>  
+        他的实例对象是访问不到的
+        </code></pre>
+        </details>  
   5. 如何向构造函数添加属性  
   6. prototype模式  
         <details>
@@ -82,8 +89,9 @@ github上的js面试题总结
         <details>
         <summary>答案</summary>
         <pre><code>
-            slice(start,end): 取数组中从start开始到end结束中间的值，并返回一个新数组（相当于返回数组的一个子数组），不改变初始数组
-            splice(start,howmany,item1,...itemX)：向数组中删除或添加指定值。start开始位置，howmany表示删除几个（如果为0则表示不             删除），item1,...itemX表示要添加的内容，返回一个新数组，会改变初始数组。如果start为负值，则表示从数组尾部开始
+            slice(start,end): 取数组中从start开始到end结束中间的值，并返回一个新数组（相当于返回数组的一个子数组），不改变初始  
+            数组splice(start,howmany,item1,...itemX)：向数组中删除或添加指定值。start开始位置，howmany表示删除几个（如果为0  
+            则表示不删除），item1,...itemX表示要添加的内容，返回一个新数组，会改变初始数组。如果start为负值，则表示从数组尾部开始
         </code></pre>
         </details>  
    
