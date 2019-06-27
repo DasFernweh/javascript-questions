@@ -20,7 +20,7 @@ github上的js面试题总结
     this指向它所在的上下文环境，与普通函数不同
     </code></pre>
     </details>  
-  3.  JavaScript的对象赋值  
+  3. JavaScript的对象赋值  
         <details>
         <summary>答案</summary>
         <pre><code>
@@ -31,11 +31,17 @@ github上的js面试题总结
         <details>
         <summary>答案</summary>
         <pre><code>
-        <font face="微软雅黑" size=6 color=#FF0000 >静态方法只存在创建他们的构造函数中</font>  
+        <strong>静态方法只存在创建他们的构造函数中</strong>  
         他的实例对象是访问不到的
         </code></pre>
         </details>  
   5. 如何向构造函数添加属性  
+        <details>
+        <summary>答案</summary>
+        <pre><code>
+           构造函数添加属性需要通过原型来实现
+        </code></pre>
+        </details>  
   6. prototype模式  
         <details>
         <summary>答案</summary>
@@ -85,13 +91,20 @@ github上的js面试题总结
         </code></pre>
         </details>  
    9. 扩展运算符（...）返回什么类型，typeof（数组）返回什么  
+        <details>
+        <summary>答案</summary>
+        <pre><code>
+            返回一个带参数的数组，typeof（数组）返回object
+        </code></pre>
+        </details>  
    10. slice()和splice()区别  
         <details>
         <summary>答案</summary>
         <pre><code>
             slice(start,end): 取数组中从start开始到end结束中间的值，并返回一个新数组（相当于返回数组的一个子数组），不改变初始  
-            数组splice(start,howmany,item1,...itemX)：向数组中删除或添加指定值。start开始位置，howmany表示删除几个（如果为0  
-            则表示不删除），item1,...itemX表示要添加的内容，返回一个新数组，会改变初始数组。如果start为负值，则表示从数组尾部开始
+            数组  
+            splice(start,howmany,item1,...itemX)：向数组中删除或添加指定值。start开始位置，howmany表示删除几个（如果为0  
+            则表示不删除），item1,...itemX表示要添加的内容，<strong>返回一个新数组，会改变初始数组</strong>。如果start为负值，  则表示从数组尾部开始
         </code></pre>
         </details>  
    
