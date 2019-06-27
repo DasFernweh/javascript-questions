@@ -1,7 +1,7 @@
 # javascript-questions
 github上的js面试题总结  
 参考的掘金文章https://juejin.im/post/5d0644976fb9a07ed064b0ca  
-需要重复看的题目：`9` `10`、`11` `12` `12` `13`
+需要重复看的题目：`9` `10`、`11` `12` `12` `13` `14` `15` `16i` `17` `18` `20` `` `` `` 
 
 ### 错误问题记录
 1. var和let声明变量时的区别  
@@ -37,5 +37,45 @@ github上的js面试题总结
         </code></pre>
         </details>  
    7. 数字和字符串运算（加减）  
+           ```
+            console.log('----1----') 
+            console.log('12' + '34')//'1234' 
+            console.log('12' + 34 )//'1234' 
+            console.log(12 + '34')//'1234' 
+            console.log(12 + 34 )//46 
+            console.log('----2----') 
+            console.log(+'12' + '34')//'1234' 
+            console.log(+'12' + 34 )//46 
+            console.log(+12 + '34')//'1234' 
+            console.log(+12 + 34 )//46 
+            console.log('----3----') 
+            console.log(-'12' + '34')//'-1234' 
+            console.log(-'12' + 34)//22 
+            console.log(-12 + '34')//'-1234' 
+            console.log(-12 + 34)//22 
+            console.log('----4----') 
+            console.log('12' - '34')//-22 
+            console.log('12' - 34)//-22 
+            console.log(12 - '34')//-22 
+            console.log(12 - 34)//-22 
+            console.log('----5----') 
+            console.log(+'12' - '34')//-22 
+            console.log(+'12' - 34)//-22 
+            console.log(+12 - '34')//-22 
+            console.log(+12 - 34)//-22 
+            console.log('----6----') 
+            console.log(-'12' - '34')//-22 
+            console.log(-'12' - 34)//-22 
+            console.log(-12 - '34')//-22 
+            console.log(-12 - 34)//-22 
+           ```
    8. 后缀一元运算符和前缀一元运算符  
-   9.
+        <details>
+        <summary>答案</summary>
+        <pre><code>
+            前缀：返回值：0，增加值1 （增加值比返回值多）  
+            后缀：返回值与增加值相同
+        </code></pre>
+        </details>  
+   9. 扩展运算符（...）返回什么类型，typeof（数组）返回什么  
+   
