@@ -38,36 +38,37 @@ github上的js面试题总结
         </details>  
    7. 数字和字符串运算（加减）  
            ```
-            console.log('----1----') 
-            console.log('12' + '34')//'1234' 
-            console.log('12' + 34 )//'1234' 
-            console.log(12 + '34')//'1234' 
-            console.log(12 + 34 )//46 
-            console.log('----2----') 
-            console.log(+'12' + '34')//'1234' 
-            console.log(+'12' + 34 )//46 
-            console.log(+12 + '34')//'1234' 
-            console.log(+12 + 34 )//46 
-            console.log('----3----') 
-            console.log(-'12' + '34')//'-1234' 
-            console.log(-'12' + 34)//22 
-            console.log(-12 + '34')//'-1234' 
-            console.log(-12 + 34)//22 
-            console.log('----4----') 
-            console.log('12' - '34')//-22 
-            console.log('12' - 34)//-22 
-            console.log(12 - '34')//-22 
-            console.log(12 - 34)//-22 
-            console.log('----5----') 
-            console.log(+'12' - '34')//-22 
-            console.log(+'12' - 34)//-22 
-            console.log(+12 - '34')//-22 
-            console.log(+12 - 34)//-22 
-            console.log('----6----') 
-            console.log(-'12' - '34')//-22 
-            console.log(-'12' - 34)//-22 
-            console.log(-12 - '34')//-22 
-            console.log(-12 - 34)//-22 
+           
+            console.log('----1----')   
+            console.log('12' + '34')//'1234'    
+            console.log('12' + 34 )//'1234'   
+            console.log(12 + '34')//'1234'   
+            console.log(12 + 34 )//46   
+            console.log('----2----')   
+            console.log(+'12' + '34')//'1234'   
+            console.log(+'12' + 34 )//46   
+            console.log(+12 + '34')//'1234'   
+            console.log(+12 + 34 )//46   
+            console.log('----3----')   
+            console.log(-'12' + '34')//'-1234'   
+            console.log(-'12' + 34)//22   
+            console.log(-12 + '34')//'-1234'   
+            console.log(-12 + 34)//22   
+            console.log('----4----')   
+            console.log('12' - '34')//-22   
+            console.log('12' - 34)//-22   
+            console.log(12 - '34')//-22   
+            console.log(12 - 34)//-22   
+            console.log('----5----')   
+            console.log(+'12' - '34')//-22   
+            console.log(+'12' - 34)//-22   
+            console.log(+12 - '34')//-22   
+            console.log(+12 - 34)//-22   
+            console.log('----6----')   
+            console.log(-'12' - '34')//-22   
+            console.log(-'12' - 34)//-22   
+            console.log(-12 - '34')//-22   
+            console.log(-12 - 34)//-22   
            ```
    8. 后缀一元运算符和前缀一元运算符  
         <details>
