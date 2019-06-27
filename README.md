@@ -1,7 +1,7 @@
 # javascript-questions
 github上的js面试题总结  
 参考的掘金文章https://juejin.im/post/5d0644976fb9a07ed064b0ca  
-需要重复看的题目：`9` `10`、`11`
+需要重复看的题目：`9` `10`、`11` `12` `12` `13`
 
 ### 错误问题记录
 1. var和let声明变量时的区别  
@@ -30,10 +30,12 @@ github上的js面试题总结
   4. ES6类的静态方法  
   5. 如何向构造函数添加属性  
   6. prototype模式  
-    <details>
-    <summary>答案</summary>
-    <pre><code>
-       js中每一个构造函数都有一个prototype属性，它指向另一个对象，这个对象的所有属性和方法，都可以被构造函数所继承
-    </code></pre>
-    </details>  
-  7. 
+        <details>
+        <summary>答案</summary>
+        <pre><code>
+           js中每一个构造函数都有一个prototype属性，它指向另一个对象，这个对象的所有属性和方法，都可以被构造函数所继承
+        </code></pre>
+        </details>  
+   7. 数字和字符串运算（加减）  
+   8. 后缀一元运算符和前缀一元运算符  
+   9.
