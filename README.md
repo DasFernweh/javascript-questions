@@ -17,7 +17,7 @@ github上的js面试题总结
     <details>
     <summary>答案</summary>
     <pre><code>
-    this指向它所在的上下文环境，与普通函数不同
+    this指向它定义时所在的上下文环境/对象，而不是使用时所在的对象，与普通函数不同
     </code></pre>
     </details>  
   3. JavaScript的对象赋值  
@@ -107,6 +107,21 @@ github上的js面试题总结
             则表示不删除），item1,...itemX表示要添加的内容，<strong>返回一个新数组，会改变初始数组</strong>。如果start为负值，  则表示从数组尾部开始
         </code></pre>
         </details>  
-    11. 对象有两个具有相同名称的键时怎么处理  
-    12. 
+   11. 对象有两个具有相同名称的键时怎么处理  
+   12. js中的call、apply、bind的区别  
+        <details>
+        <summary>答案</summary>
+        <pre><code>
+            call():
+            apply(): 
+            bind():
+            call()和apply()区别：call和apply的区别在于传递的参数形式不同，call接受单个参数排列（多个参数），apply接受参数组成的  数组。  
+            ```
+            fn.call(f1,a,b,c)
+            fn.apply(f1,[a,b,c])
+            ```
+            call()和bind()区别：call和apply立即执行，bind返回一个函数在调用时执行
+        </code></pre>
+        </details>  
+    
    
