@@ -111,7 +111,6 @@ github上的js面试题总结
    12. js中的call、apply、bind的区别  
         <details>
         <summary>答案</summary>
-        <pre><code>
             call():
             apply(): 
             bind():
@@ -121,7 +120,6 @@ github上的js面试题总结
             fn.apply(f1,[a,b,c])
             ```
             call()和bind()区别：call和apply立即执行，bind返回一个函数在调用时执行
-        </code></pre>
         </details>  
     
    
