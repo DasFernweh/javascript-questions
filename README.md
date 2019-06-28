@@ -109,17 +109,19 @@ github上的js面试题总结
         </details>  
    11. 对象有两个具有相同名称的键时怎么处理  
    12. js中的call、apply、bind的区别  
-        <details>
-        <summary>答案</summary>
-            call():
-            apply(): 
-            bind():
-            call()和apply()区别：call和apply的区别在于传递的参数形式不同，call接受单个参数排列（多个参数），apply接受参数组成的  数组。  
-            ```
-            fn.call(f1,a,b,c)
-            fn.apply(f1,[a,b,c])
-            ```
-            call()和bind()区别：call和apply立即执行，bind返回一个函数在调用时执行
-        </details>  
-    
+         三个函数的作用就是改变this的指向
+         call():  
+         apply():   
+         bind():  
+         call()和apply()区别：call和apply的区别在于传递的参数形式不同，call接受单个参数排列（多个参数），apply接受参数组成的数组。  
+          ```
+          fn.call(f1,a,b,c)
+          fn.apply(f1,[a,b,c])
+          ```
+          call()和bind()区别：call和apply立即执行，bind返回一个函数在调用时执行
+    13. 方法调用模式和函数调用模式  
+        方法调用：如果一个函数被保存为一个对象的方法，执行表达式时有提取属性的操作，那么他就被当作一个方法来调用，此时的this绑定在这个对象上。  
+        函数调用：  
+        构造器调用模式：
+    14. reduce()
    
