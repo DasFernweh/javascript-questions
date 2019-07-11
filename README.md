@@ -1,7 +1,8 @@
 # javascript-questions
 github上的js面试题总结  
 参考的掘金文章https://juejin.im/post/5d0644976fb9a07ed064b0ca  
-需要重复看的题目：`9` `10`、`11` `12` `12` `13` `14` `15` `16i` `17` `18` `20` `21` `` `` 
+需要重复看的题目：`9` `10`、`11` `12` `12` `13` `14` `15` `16i` `17` `18` `20` `21` `22~43`   
+第二次看仍需要看：10、11、12、13、16、17、20、21、28（重点看分析）、29？、31、34、35、38、42
 
 ### 错误问题记录
 1. var和let声明变量时的区别  
@@ -94,7 +95,8 @@ github上的js面试题总结
         <details>
         <summary>答案</summary>
         <pre><code>
-            返回一个带参数的数组，typeof（数组）返回object
+            返回一个带参数的数组，typeof（数组）返回object  
+            所有的对象键都会被存为字符串，即使给定的键名不是字符串类型
         </code></pre>
         </details>  
    10. slice()和splice()区别  
@@ -124,4 +126,17 @@ github上的js面试题总结
         函数调用：  
         构造器调用模式：
     14. reduce()
-   
+    15. 有原型的对象和没有原型的对象  
+    <details>
+        <summary>答案</summary>
+        <pre><code>
+            创建有原型对象的三种方法：  
+            var o = Object.create({})
+            var o = {}
+            var o = Object({})
+            创建没有原型和构造函数的对象：
+            var o = Object.create(null) // 注意Object(null)是有原型和原型链的    
+            该对象的隐式原型和构造函数都返回undefined
+            使用instanceof返回false
+        </code></pre>
+        </details>  
